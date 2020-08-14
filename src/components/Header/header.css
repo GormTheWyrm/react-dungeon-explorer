@@ -1,0 +1,7 @@
+.header{
+width: 100%;
+border: solid lightcoral;
+padding: 15px;
+margin: 0px;
+/* that doesnt work- need to use bootstrap to get around bootstrap margins... */
+}

@@ -1,0 +1,14 @@
+.grid{
+    background-color:  #282c34;
+    border: solid #61dafb;
+    /* may need to change height */
+    height: 55vh;
+}
+.testObject{
+    background-color: lightgreen;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%
+}

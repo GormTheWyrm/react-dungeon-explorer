@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import MainPage from './pages/MainPage';
 import './App.css';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Grid from './components/Grid/Grid';
 
 function App() {
+
+  // Do I need to have different pages for different screen sizes? 
+  // Probably not, but it would be easier to manage css...
+
+  // right here there shoudl be some management of screen size... if statement.
+  // and I should add links at the top
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="backgroundDiv container-fluid">
+      <Header />
+      <MainPage />
+      <Footer />
     </div>
   );
 }
